@@ -22,7 +22,6 @@ fn overlapping_intervals( input: &mut Vec<[i32;2]> ) -> Vec<[i32;2]>{
 }
 
 
-
 #[test]
 fn check_answer_validity() {
     let mut vec = vec![[1,3],[5,8],[4,10],[20,25],[6,7]];
