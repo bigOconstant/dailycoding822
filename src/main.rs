@@ -4,7 +4,6 @@ fn overlapping_intervals( input: &mut Vec<[i32;2]> ) -> Vec<[i32;2]>{
     let mut vec = Vec::new();
 
     for i in 0..input.len() {
-        //println!("{},{}",input[i][0],input[i][1]);
         let mut found_merged = false;
         for j in 0..input.len() {
             
